@@ -12,9 +12,10 @@
             <img src="../assets/gpdimensao.svg" alt="Logotipo da Dimensao">
         </div>
 
+    <?php if(isset($_SESSION['login'])){ ?>
+    <a href="logout.php"><?php echo $_SESSION['usuario']; ?> </a>
+    <?php  } ?>
     </header>
-
-
 
 
 <style type = "text/css">

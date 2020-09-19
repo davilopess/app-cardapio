@@ -16,5 +16,5 @@ if (isset($_GET['id'])) {
 
     $conexao->query($query);
 
-    header('Location: index.php?pagina=pedidos');
+    header('Location: admin.php?pagina=pedidos');
 }

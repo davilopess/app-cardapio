@@ -8,7 +8,7 @@ if (isset($_POST['nome'])) {
 
     $conexao->query( $query);
 
-    header('Location: index.php');
+    header('Location: admin.php');
 
 }
 
@@ -20,5 +20,5 @@ if (isset($_GET['id'])) {
 
     $conexao->query( $query);
 
-    header('Location: index.php');
+    header('Location: admin.php');
 }

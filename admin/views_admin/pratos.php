@@ -5,7 +5,7 @@
 
 <div class="container-table">
     <div class="container-nome">
-        <form method="post" action="admin_conf.php">
+        <form method="post" action="pratos_conf.php">
             <input type="text" name="nome" placeholder="Adicionar um prato">
             
             <button type="submit"  class="btn-floating"><i class="material-icons">add</i></button>
